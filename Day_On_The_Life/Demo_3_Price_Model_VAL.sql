@@ -129,9 +129,11 @@ outputtablename=trans;
 keycolumns=id;
 index=id;
 designcode={designstyle(dummycode),designvalues(Entre 10 y 20 años/ant10_20,Entre 0 y 5 años/ant0_5,Entre 5 y 10 años/ant5_10,Más de 20 años/ant20_mas),columns(antiguedad_original)};
-derive={formula(sqrt(x)),arguments(valor),outputname(rvalor)};');
+derive={formula(''sqrt(x)''),arguments(valor),outputname(rvalor)};
+retain = {columns (banos, garajes, estrato)}');
 
 SELECT TOP 10 * FROM trans;
+
 
 --- IMPUTACIÓN DE VARIABLES
 
