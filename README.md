@@ -17,7 +17,7 @@ Bring Your Own Model
 [Video](https://www.youtube.com/watch?v=grq37uW0pxM)
 
 
-Vantage Analytic Library
+Vantage Analytics Library
 [Guide](https://docs.teradata.com/r/Vantage-Analytics-Library-User-Guide/January-2022)
 [Video](https://www.youtube.com/watch?v=qxNw6sM0amg)
 
