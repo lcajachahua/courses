@@ -128,31 +128,3 @@ as.data.frame(head(tdScore$result))
 ## Cerramos la conexión
 td_remove_context()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-tdPrecios <- tbl(con, dplyr::sql("select * from LC250058.r__t__valib_td_lin_reg_valib1650998024969752"))
-dbGetQuery(con, ("select * from LC250058.r__t__valib_td_lin_reg_valib1650998024969752"))
