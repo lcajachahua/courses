@@ -1,16 +1,16 @@
 
 ####################################################
-## Modelo de Estimaci髇 del Precio de Viviendas
+## Modelo de Estimaci贸n del Precio de Viviendas
 ####################################################
 
 ## Step 1: Business Understanding
 ## -----------------------------------
 
-## Este dataset contiene informaci髇 recolectada de precios y caracter韘ticas de 142 mil viviendas 
-## en Colombia. La informaci髇 se encuentra disponible p鷅licamente en el repositorio Kaggle: 
+## Este dataset contiene informaci贸n recolectada de precios y caracter铆sticas de 142 mil viviendas 
+## en Colombia. La informaci贸n se encuentra disponible p煤blicamente en el repositorio Kaggle: 
 ## https://www.kaggle.com/datasets/danieleduardofajardo/colombia-house-prediction
 
-## Cargamos las librer韆s
+## Cargamos las librer铆as
 
 options(warn=-1)
 
@@ -42,7 +42,7 @@ WHERE area between 20 and 2000 and valor between 50000000 and 5000000000
 SAMPLE RANDOMIZED ALLOCATION 0.7, 0.3"))
 as.data.frame(head(tdPrecios))
 
-## Tama駉 de la tabla
+## Tama帽o de la tabla
 
 td_nrow(tdPrecios)
 
@@ -52,10 +52,10 @@ td_nrow(tdPrecios)
 ## Step 2: Data Understanding
 ## -----------------------------------
 
-## Exploraci髇 de Valores
+## Exploraci贸n de Valores
 
-## Vamos a utilizar la funci髇 td_explore_valib de Vantage Analytic Library, 
-## Esta funci髇 genera varias tablas donde se almacenan los resultados del an醠isis.
+## Vamos a utilizar la funci贸n td_explore_valib de Vantage Analytic Library, 
+## Esta funci贸n genera varias tablas donde se almacenan los resultados del an谩lisis.
 
 options(val.install.location = "TRNG_XSP")
 
@@ -65,15 +65,15 @@ eda01 <- td_explore_valib(data=tdPrecios)
 
 arrange(as.data.frame(eda01$values.output),xcol)
 
-#### 2. Descriptivo de variables num閞icas: Nos muestra los descriptivos b醩icos de las variables num閞icas en nuestra tabla de datos. 
+#### 2. Descriptivo de variables num茅ricas: Nos muestra los descriptivos b谩sicos de las variables num茅ricas en nuestra tabla de datos. 
 
 arrange(as.data.frame(eda01$statistics.output),xcol)
 
-#### 3. Descriptivos de variables de texto: Nos muestra los descriptivos b醩icos de las variables de texto en nuestra tabla de datos.
+#### 3. Descriptivos de variables de texto: Nos muestra los descriptivos b谩sicos de las variables de texto en nuestra tabla de datos.
 
 arrange(as.data.frame(eda01$frequency.output),xcol,xval)
 
-#### 4. Descriptivos de variables num閞icas discretizadas (bins): Nos muestra los descriptivos resultantes de discretizar las variables num閞icas de nuestra tabla de datos.
+#### 4. Descriptivos de variables num茅ricas discretizadas (bins): Nos muestra los descriptivos resultantes de discretizar las variables num茅ricas de nuestra tabla de datos.
 
 arrange(as.data.frame(eda01$histogram.output),xcol,xbin)
 
@@ -82,19 +82,19 @@ arrange(as.data.frame(eda01$histogram.output),xcol,xbin)
 ## Step 3: Data Preparation
 ## -----------------------------------
 
-## La Transformacion de Variables e Imputacion se hizo en la fase de adquisici髇
+## La Transformacion de Variables e Imputacion se hizo en la fase de adquisici贸n
 
 
 
 ## Step 4: Modeling
 ## -----------------------------------
 
-## Divisi髇 de Muestras Train y Evaluation
+## Divisi贸n de Muestras Train y Evaluation
 
 tbl_train <- filter(tdPrecios, sid == 1)
 tbl_test <- filter(tdPrecios, sid == 2)
 
-## Generaci髇 del Modelo de Estimaci髇 de Precios
+## Generaci贸n del Modelo de Estimaci贸n de Precios
 
 tdModel <- td_lin_reg_valib(data=tbl_train,
                             columns='all',
@@ -113,8 +113,8 @@ print(tdModel$statistical.measures)
 
 ## Evaluando el Modelo con el dataset de test
 
-tdEval <- td_lin_reg_evaluator_valib(data=tbl_test, model=tdModel$model)
-
+tdEval <- td_lin_reg_evaluator_valib(data=tbl_test, model=tdModel$model, index.columns='id')
+as.data.frame(tdEval$result)
 
 
 ## Step 6: Deployment
@@ -122,10 +122,11 @@ tdEval <- td_lin_reg_evaluator_valib(data=tbl_test, model=tdModel$model)
 
 ## Score de datos nuevos
 
-tdScore <- td_lin_reg_predict_valib(data=tbl_test, model=tdModel$model, response.column="valor_estim")
+tdScore <- td_lin_reg_predict_valib(data=tbl_test, model=tdModel$model, response.column="valor_estim", index.columns='id')
+as.data.frame(head(tdScore$result))
 
-
-
+## Cerramos la conexi贸n
+td_remove_context()
 
 
 
