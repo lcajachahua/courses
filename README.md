@@ -2,6 +2,9 @@
 
 ### References
 
+Vantage SQLE Analytic Functions (17.10)
+[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Advanced-SQL-Engine-Analytic-Functions/July-2021)
+
 Vantage SQLE Analytic Functions (16.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions)
 [Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
