@@ -3,7 +3,7 @@
 ### References
 
 Vantage SQLE Analytic Functions (17.20)
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Advanced-SQL-Engine-Analytic-Functions/June-2022/Introduction-to-Advanced-SQL-Engine-Analytic-Functions)
+[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Analytics-Database-Analytic-Functions-17.20/Introduction-to-Analytics-Database-Analytic-Functions)
 
 Vantage SQLE Analytic Functions (17.10)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-Advanced-SQL-Engine-Analytic-Functions/July-2021/Introduction-to-Teradata-Vantage)
@@ -11,6 +11,10 @@ Vantage SQLE Analytic Functions (17.10)
 Vantage SQLE Analytic Functions (16.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions)
 [Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
+
+
+Vantage Unbounded Array Framework (UAF) Time Series Reference (17.20)
+[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Unbounded-Array-Framework-Time-Series-Reference/Unbounded-Array-Framework)
 
 
 Analytics 123: Enabling Enterprise AI at Scale
