@@ -12,6 +12,15 @@ Vantage SQLE Analytic Functions (16.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions)
 [Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
 
+Vantage Time Series Tables and Operations
+[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Time-Series-Tables-and-Operations/March-2019)
+
+Vantage Temporal Table Support
+[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Temporal-Table-Support/March-2019)
+
+Vantage Geospatial Data Types
+[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Geospatial-Data-Types/July-2021)
+
 
 Vantage Unbounded Array Framework (UAF) Time Series Reference (17.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-Unbounded-Array-Framework-Time-Series-Reference/Unbounded-Array-Framework)
