@@ -1,6 +1,6 @@
 # Vantage Courses
 
-### References
+### Reference Guides
 
 Vantage SQLE Analytic Functions (17.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-Analytics-Database-Analytic-Functions-17.20/Introduction-to-Analytics-Database-Analytic-Functions)
@@ -25,6 +25,9 @@ Vantage Geospatial Data Types
 Vantage Unbounded Array Framework (UAF) Time Series Reference (17.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-Unbounded-Array-Framework-Time-Series-Reference/Unbounded-Array-Framework)
 
+
+Vantage API Integration Guide for Cloud Machine Learning
+[Guide](https://docs.teradata.com/r/Teradata-VantageTM-API-Integration-Guide-for-Cloud-Machine-Learning/April-2022/Teradata-API-Integration-Project)
 
 Analytics 123: Enabling Enterprise AI at Scale
 [Guide](https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf)
