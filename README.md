@@ -26,7 +26,7 @@ Vantage Unbounded Array Framework (UAF) Time Series Reference (17.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-Unbounded-Array-Framework-Time-Series-Reference/Unbounded-Array-Framework)
 
 
-Vantage API Integration Guide for Cloud Machine Learning
+Vantage API Integration Guide for Cloud Machine Learning (17.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-API-Integration-Guide-for-Cloud-Machine-Learning/April-2022/Teradata-API-Integration-Project)
 
 Analytics 123: Enabling Enterprise AI at Scale
