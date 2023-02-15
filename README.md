@@ -33,12 +33,12 @@ Analytics 123: Enabling Enterprise AI at Scale
 
 
 Bring Your Own Model
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide/October-2021/Bring-Your-Own-Model)
+[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide)
 [Video](https://www.youtube.com/watch?v=grq37uW0pxM)
 
 
 Vantage Analytics Library
-[Guide](https://docs.teradata.com/r/Vantage-Analytics-Library-User-Guide/January-2022)
+[Guide](https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Vantage-Analytics-Library-User-Guide)
 [Video](https://www.youtube.com/watch?v=qxNw6sM0amg)
 
 
