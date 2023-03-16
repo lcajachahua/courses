@@ -52,6 +52,10 @@ Tdplyr: Teradata Package for R
 [Video](https://www.youtube.com/watch?v=gPrUzlsFIJI)
 
 
+Vantage ModelOps Use Guide
+[Guide](https://docs.teradata.com/r/Enterprise_VMware_IntelliFlex/Teradata-VantageTM-ModelOps-User-Guide)
+
+
 Vantage Unbounded Array Framework (UAF) Time Series Reference (17.20)
 [Guide](https://docs.teradata.com/r/Teradata-VantageTM-Unbounded-Array-Framework-Time-Series-Reference/Unbounded-Array-Framework)
 
