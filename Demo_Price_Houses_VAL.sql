@@ -1,4 +1,4 @@
-DATABASE ADLSLSAMER_MS_AZ;
+DATABASE lc250058;
 
 --DROP TABLE Precio_Casas_Col;
 
@@ -63,9 +63,8 @@ select count(*) n from Precio_Casas_Col;
 
 --- ANALISIS EXPLORATORIO
 
-call TRNG_XSP.td_analyze (
-'values',
-'database = ADLSLSAMER_MS_AZ;
+call TRNG_XSP.td_analyze ('values',
+'database = lc250058;
 tablename = Precio_Casas_Col;
 columns = all;');
 
@@ -73,14 +72,14 @@ columns = all;');
 --- ESTADISTICAS DESCRIPTIVAS
 
 call TRNG_XSP.td_analyze ('statistics',
-'database = ADLSLSAMER_MS_AZ;
+'database = lc250058;
 tablename = Precio_Casas_Col;
 extendedoptions = quantiles;
 columns = area, banos, estrato, habitaciones, valor, garajes;');
 
 
 call TRNG_XSP.td_analyze ('statistics',
-'database = ADLSLSAMER_MS_AZ;
+'database = lc250058;
 tablename = Precio_Casas_Col;
 columns = area, banos, estrato, habitaciones, valor, garajes;
 groupby = antiguedad_original;');
@@ -89,7 +88,7 @@ groupby = antiguedad_original;');
 --- FRECUENCIAS
 
 call TRNG_XSP.td_analyze ('frequency',
-'database = ADLSLSAMER_MS_AZ;
+'database = lc250058;
 tablename = Precio_Casas_Col;
 columns = antiguedad_original, estrato, garajes, habitaciones;');
 
@@ -97,9 +96,9 @@ columns = antiguedad_original, estrato, garajes, habitaciones;');
 --- DATAEXPLORER
 
 call TRNG_XSP.td_analyze ('dataexplorer',
-'database = ADLSLSAMER_MS_AZ;
+'database = lc250058;
 tablename = Precio_Casas_Col;
-outputdatabase = ADLSLSAMER_MS_AZ;');
+outputdatabase = lc250058;');
 
 --- Descriptivos de variables categóricas
 select * from TwmExploreFrequency ORDER BY xcol, xval;
@@ -120,27 +119,6 @@ select * from TwmExploreValues ORDER BY xtype, xcol;
 --------------------------------------------
 
 --- RECODIFICACIÓN EN DUMMIES Y RAÍZ DEL PRECIO
-
-call TRNG_XSP.td_analyze('vartran',
-'database=ADLSLSAMER_MS_AZ;
-tablename=Precio_Casas_Col;
-outputstyle=table;
-outputdatabase=ADLSLSAMER_MS_AZ;
-outputtablename=trans;
-keycolumns=id;
-index=id;
-designcode={designstyle(dummycode),designvalues(Entre 10 y 20 años/ant10_20,Entre 0 y 5 años/ant0_5,Entre 5 y 10 años/ant5_10,Más de 20 años/ant20_mas),columns(antiguedad_original)};
-derive={formula(''sqrt(x)''),arguments(valor),outputname(rvalor)};
-retain = {columns (banos, garajes, estrato)}');
-
-SELECT TOP 10 * FROM trans;
-
-
---- IMPUTACIÓN DE VARIABLES
-
---update Precio_Casas_Col set estrato=0 where estrato is null;
---update Precio_Casas_Col set garajes=0 where garajes is null;
---update Precio_Casas_Col set banos=0 where banos is null;
 
 
 --- Unimos los datos transformados y generamos marcas para las muestras de Entrenamiento, Validación
@@ -167,7 +145,7 @@ PRIMARY INDEX (id);
 
 SELECT TOP 10 * FROM precios;
 
-
+/*
 CREATE TABLE precios AS (
 select id, area, 
 CASE WHEN banos is null then 0 else banos end as banos, 
@@ -178,13 +156,13 @@ WHERE area between 20 and 2000 and valor between 50000000 and 5000000000
 SAMPLE RANDOMIZED ALLOCATION 0.6, 0.4
 ) WITH DATA
 PRIMARY INDEX (id);
-
+*/
 
 
 --- MATRIZ DE CORRELACIONES
 
 call TRNG_XSP.td_analyze ('matrix',
-'database = ADLSLSAMER_MS_AZ;
+'database = lc250058;
 tablename = precios;
 columns = all;
 columnstoexclude = id, sid;
@@ -217,14 +195,14 @@ PRIMARY INDEX (id);
 --- MODELO DE REGRESIÓN LOGÍSTICA
 
 call TRNG_XSP.td_analyze('linear',
-'database=ADLSLSAMER_MS_AZ;
+'database=lc250058;
 tablename=tch_train;
 columns= all;
 columnstoexclude=id,sid;
 dependent=rvalor;
 statstable=true;
 stepwise=true;
-outputdatabase=ADLSLSAMER_MS_AZ;
+outputdatabase=lc250058;
 outputtablename=linearmodel;');
 
 
@@ -239,7 +217,7 @@ SELECT * FROM linearmodel_rpt;
 
 --- Reporte HTML
 call TRNG_XSP.td_analyze ('report',
-'database=ADLSLSAMER_MS_AZ;
+'database=lc250058;
 tablename=linearmodel;
 analysistype=linear');
 
@@ -251,11 +229,11 @@ analysistype=linear');
 --- Scoring del modelo de Regresión Logística
 
 call TRNG_XSP.td_analyze('linearscore',
-'database=ADLSLSAMER_MS_AZ;
+'database=lc250058;
 tablename=tch_test;
-modeldatabase=ADLSLSAMER_MS_AZ;
+modeldatabase=lc250058;
 modeltablename=linearmodel;
-outputdatabase=ADLSLSAMER_MS_AZ;
+outputdatabase=lc250058;
 outputtablename=linearmodelval;
 predicted=rvalor_estimado;
 retain=rvalor;
@@ -264,7 +242,7 @@ scoringmethod=scoreandevaluate;');
 
 
 call TRNG_XSP.td_analyze ('matrix',
-'database = ADLSLSAMER_MS_AZ;
+'database = lc250058;
 tablename = linearmodelval;
 columns = rvalor,rvalor_estimado;
 matrixtype = COR;');
@@ -282,7 +260,6 @@ DROP TABLE TwmExploreFrequency;
 DROP TABLE TwmExploreHistogram;
 DROP TABLE TwmExploreStatistics;
 DROP TABLE TwmExploreValues;
-DROP TABLE trans;
 DROP TABLE precios;
 DROP TABLE tch_train;
 DROP TABLE tch_test;
@@ -294,3 +271,4 @@ DROP TABLE linearmodel_txt;
 DROP TABLE linearmodelval;
 DROP TABLE linearmodelval_txt;
 
+DROP TABLE Precio_Score;
