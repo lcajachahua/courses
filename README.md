@@ -33,7 +33,7 @@ Analytics 123: Enabling Enterprise AI at Scale
 
 
 Bring Your Own Model
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide)
+[Guide](https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide)
 [Video](https://www.youtube.com/watch?v=grq37uW0pxM)
 
 
