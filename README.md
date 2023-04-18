@@ -33,7 +33,7 @@ https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-E
 
 
 Bring Your Own Model
-https://docs.teradata.com/search/documents?query=bring+your+own+model&sort=last_update&virtual-field=title_only&content-lang=en-US
+https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide
 [Video](https://www.youtube.com/watch?v=grq37uW0pxM)
 
 
