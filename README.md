@@ -38,7 +38,7 @@ Bring Your Own Model
 
 
 Vantage Analytics Library
-[Guide](https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Vantage-Analytics-Library-User-Guide)
+[Guide](https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Vantage-Analytics-Library-User-Guide/Descriptive-Statistics)
 [Video](https://www.youtube.com/watch?v=qxNw6sM0amg)
 
 
