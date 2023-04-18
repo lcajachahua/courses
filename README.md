@@ -33,35 +33,35 @@ Analytics 123: Enabling Enterprise AI at Scale
 
 
 Bring Your Own Model
-[Guide](https://docs.teradata.com/search/documents?query=bring+your+own+model&sort=last_update&virtual-field=title_only&content-lang=en-US)
+https://docs.teradata.com/search/documents?query=bring+your+own+model&sort=last_update&virtual-field=title_only&content-lang=en-US
 [Video](https://www.youtube.com/watch?v=grq37uW0pxM)
 
 
 Vantage Analytics Library
-[Guide](https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Vantage-Analytics-Library-User-Guide/Descriptive-Statistics)
+https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Vantage-Analytics-Library-User-Guide/Descriptive-Statistics
 [Video](https://www.youtube.com/watch?v=qxNw6sM0amg)
 
 
 TeradataML: Teradata Package for Python
-[Guide](https://docs.teradata.com/r/Teradata-Package-for-Python-Function-Reference/November-2021/teradataml-Vantage-Analytics-Library-Functions)
+https://docs.teradata.com/r/Teradata-Package-for-Python-Function-Reference/November-2021/teradataml-Vantage-Analytics-Library-Functions
 [Video](https://www.youtube.com/watch?v=YK_x4y52ffc)
 
 
 Tdplyr: Teradata Package for R
-[Guide](https://docs.teradata.com/r/Teradata-Package-for-R-Function-Reference/July-2021/Teradata-Package-for-R-Function-Reference/tdplyr-Package)
+https://docs.teradata.com/r/Teradata-Package-for-R-Function-Reference/July-2021/Teradata-Package-for-R-Function-Reference/tdplyr-Package
 [Video](https://www.youtube.com/watch?v=gPrUzlsFIJI)
 
 
 Vantage ModelOps Use Guide
-[Guide](https://docs.teradata.com/r/Enterprise_VMware_IntelliFlex/Teradata-VantageTM-ModelOps-User-Guide)
+https://docs.teradata.com/r/Enterprise_VMware_IntelliFlex/Teradata-VantageTM-ModelOps-User-Guide
 
 
 Vantage Unbounded Array Framework (UAF) Time Series Reference (17.20)
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Unbounded-Array-Framework-Time-Series-Reference/Unbounded-Array-Framework)
+https://docs.teradata.com/r/Teradata-VantageTM-Unbounded-Array-Framework-Time-Series-Reference/Unbounded-Array-Framework
 
 
 Vantage API Integration Guide for Cloud Machine Learning (17.20)
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-API-Integration-Guide-for-Cloud-Machine-Learning/April-2022/Teradata-API-Integration-Project)
+https://docs.teradata.com/r/Teradata-VantageTM-API-Integration-Guide-for-Cloud-Machine-Learning/April-2022/Teradata-API-Integration-Project
 
 Integration Vantage + Dataiku
-[Guide](https://www.dataiku.com/product/plugins/teradata/)
+https://www.dataiku.com/product/plugins/teradata/
