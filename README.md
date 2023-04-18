@@ -1,34 +1,34 @@
 # Vantage Courses
 
-### Reference Guides
+### Reference Guides (Please, COPY THE LINK and paste it on the web browser, Git origins are not supported)
 
 Vantage SQLE Analytic Functions (17.20)
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Analytics-Database-Analytic-Functions-17.20/Introduction-to-Analytics-Database-Analytic-Functions)
+https://docs.teradata.com/r/Teradata-VantageTM-Analytics-Database-Analytic-Functions-17.20/Introduction-to-Analytics-Database-Analytic-Functions
 
 
 Vantage SQLE Analytic Functions (17.10)
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Advanced-SQL-Engine-Analytic-Functions/July-2021/Introduction-to-Teradata-Vantage)
+https://docs.teradata.com/r/Teradata-VantageTM-Advanced-SQL-Engine-Analytic-Functions/July-2021/Introduction-to-Teradata-Vantage
 
 
 Vantage SQLE Analytic Functions (16.20)
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions)
+https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions
 [Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
 
 
 Vantage Time Series Tables and Operations
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Time-Series-Tables-and-Operations/March-2019)
+https://docs.teradata.com/r/Teradata-VantageTM-Time-Series-Tables-and-Operations/March-2019
 
 
 Vantage Temporal Table Support
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Temporal-Table-Support/March-2019)
+https://docs.teradata.com/r/Teradata-VantageTM-Temporal-Table-Support/March-2019
 
 
 Vantage Geospatial Data Types
-[Guide](https://docs.teradata.com/r/Teradata-VantageTM-Geospatial-Data-Types/July-2021)
+https://docs.teradata.com/r/Teradata-VantageTM-Geospatial-Data-Types/July-2021
 
 
 Analytics 123: Enabling Enterprise AI at Scale
-[Guide](https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf)
+https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf
 [Video](https://www.youtube.com/watch?v=-UKK_KRGt9I)
 
 
