@@ -28,15 +28,24 @@ https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/
 
 
 Vantage Time Series Tables and Operations
+
+
 https://docs.teradata.com/r/Teradata-VantageTM-Time-Series-Tables-and-Operations/March-2019
 
 
+
 Vantage Temporal Table Support
+
+
 https://docs.teradata.com/r/Teradata-VantageTM-Temporal-Table-Support/March-2019
 
 
+
 Vantage Geospatial Data Types
+
+
 https://docs.teradata.com/r/Teradata-VantageTM-Geospatial-Data-Types/July-2021
+
 
 
 Analytics 123: Enabling Enterprise AI at Scale
@@ -46,11 +55,13 @@ Analytics 123: Enabling Enterprise AI at Scale
 https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf
 
 
+
 Bring Your Own Model
 [Video](https://www.youtube.com/watch?v=grq37uW0pxM)
 
 
 https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide
+
 
 
 Vantage Analytics Library
@@ -75,15 +86,26 @@ https://docs.teradata.com/r/Teradata-Package-for-R-Function-Reference/July-2021/
 
 
 Vantage ModelOps Use Guide
+
+
 https://docs.teradata.com/r/Enterprise_VMware_IntelliFlex/Teradata-VantageTM-ModelOps-User-Guide
 
 
+
 Vantage Unbounded Array Framework (UAF) Time Series Reference (17.20)
+
+
 https://docs.teradata.com/r/Teradata-VantageTM-Unbounded-Array-Framework-Time-Series-Reference/Unbounded-Array-Framework
 
 
+
 Vantage API Integration Guide for Cloud Machine Learning (17.20)
+
+
 https://docs.teradata.com/r/Teradata-VantageTM-API-Integration-Guide-for-Cloud-Machine-Learning/April-2022/Teradata-API-Integration-Project
 
+
 Integration Vantage + Dataiku
+
+
 https://www.dataiku.com/product/plugins/teradata/
