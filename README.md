@@ -19,12 +19,12 @@ https://docs.teradata.com/r/Teradata-VantageTM-Advanced-SQL-Engine-Analytic-Func
 
 
 Vantage SQLE Analytic Functions (16.20)
+[Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
 
 
 https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions
 
 
-[Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
 
 
 Vantage Time Series Tables and Operations
@@ -40,28 +40,38 @@ https://docs.teradata.com/r/Teradata-VantageTM-Geospatial-Data-Types/July-2021
 
 
 Analytics 123: Enabling Enterprise AI at Scale
-https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf
 [Video](https://www.youtube.com/watch?v=-UKK_KRGt9I)
 
 
+https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf
+
+
 Bring Your Own Model
-https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide
 [Video](https://www.youtube.com/watch?v=grq37uW0pxM)
 
 
+https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide
+
+
 Vantage Analytics Library
-https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Vantage-Analytics-Library-User-Guide/Descriptive-Statistics
 [Video](https://www.youtube.com/watch?v=qxNw6sM0amg)
 
 
+https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Vantage-Analytics-Library-User-Guide/Descriptive-Statistics
+
+
 TeradataML: Teradata Package for Python
-https://docs.teradata.com/r/Teradata-Package-for-Python-Function-Reference/November-2021/teradataml-Vantage-Analytics-Library-Functions
 [Video](https://www.youtube.com/watch?v=YK_x4y52ffc)
 
 
+https://docs.teradata.com/r/Teradata-Package-for-Python-Function-Reference/November-2021/teradataml-Vantage-Analytics-Library-Functions
+
+
 Tdplyr: Teradata Package for R
-https://docs.teradata.com/r/Teradata-Package-for-R-Function-Reference/July-2021/Teradata-Package-for-R-Function-Reference/tdplyr-Package
 [Video](https://www.youtube.com/watch?v=gPrUzlsFIJI)
+
+
+https://docs.teradata.com/r/Teradata-Package-for-R-Function-Reference/July-2021/Teradata-Package-for-R-Function-Reference/tdplyr-Package
 
 
 Vantage ModelOps Use Guide
