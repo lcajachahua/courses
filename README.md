@@ -44,7 +44,7 @@ https://docs.teradata.com/r/Teradata-VantageTM-Temporal-Table-Support/March-2019
 Vantage Geospatial Data Types
 
 
-https://docs.teradata.com/r/Teradata-VantageTM-Geospatial-Data-Types/July-2021
+https://docs.teradata.com/r/Geospatial-Data-Types/July-2021
 
 
 
