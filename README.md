@@ -29,15 +29,14 @@ https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/
 
 Vantage Time Series Tables and Operations
 
-
-https://docs.teradata.com/r/Teradata-VantageTM-Time-Series-Tables-and-Operations/March-2019
+https://docs.teradata.com/r/Enterprise_IntelliFlex_VMware/Time-Series-Tables-and-Operations
 
 
 
 Vantage Temporal Table Support
 
+https://docs.teradata.com/r/Enterprise_IntelliFlex_VMware/Temporal-Table-Support
 
-https://docs.teradata.com/r/Teradata-VantageTM-Temporal-Table-Support/March-2019
 
 
 
