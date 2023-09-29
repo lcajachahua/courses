@@ -81,7 +81,7 @@ Tdplyr: Teradata Package for R
 [Video](https://www.youtube.com/watch?v=gPrUzlsFIJI)
 
 
-https://docs.teradata.com/r/Teradata-Package-for-R-Function-Reference/July-2021/Teradata-Package-for-R-Function-Reference/tdplyr-Package
+https://docs.teradata.com/r/Teradata-Package-for-R-Function-Reference
 
 
 Vantage ModelOps Use Guide
