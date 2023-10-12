@@ -11,7 +11,7 @@
 
 
 [Vantage SQLE Analytic Functions (16.20)](https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions)
-[-> (Video)](https://www.youtube.com/watch?v=aUfjkOlQrLs)
+-> [(Video)](https://www.youtube.com/watch?v=aUfjkOlQrLs)
 
 
 
@@ -28,27 +28,27 @@
 
 
 [Analytics 123: Enabling Enterprise AI at Scale](https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf)
-[-> (Video)](https://www.youtube.com/watch?v=-UKK_KRGt9I)
+-> [(Video)](https://www.youtube.com/watch?v=-UKK_KRGt9I)
 
 
 
 [Bring Your Own Model](https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Teradata-VantageTM-Bring-Your-Own-Model-User-Guide)
-[-> (Video)](https://www.youtube.com/watch?v=grq37uW0pxM)
+-> [(Video)](https://www.youtube.com/watch?v=grq37uW0pxM)
 
 
 
 [Vantage Analytics Library](https://docs.teradata.com/r/Enterprise_IntelliFlex_Lake_VMware/Vantage-Analytics-Library-User-Guide/Descriptive-Statistics)
-[-> (Video)](https://www.youtube.com/watch?v=qxNw6sM0amg)
+-> [(Video)](https://www.youtube.com/watch?v=qxNw6sM0amg)
 
 
 
 [TeradataML: Teradata Package for Python](https://docs.teradata.com/r/Enterprise/Teradata-Package-for-Python-Function-Reference-17.20)
-[ -> (Video)](https://www.youtube.com/watch?v=YK_x4y52ffc)
+-> [(Video)](https://www.youtube.com/watch?v=YK_x4y52ffc)
 
 
 
 [Tdplyr: Teradata Package for R](https://docs.teradata.com/r/Teradata-Package-for-R-Function-Reference)
-[ -> (Video)](https://www.youtube.com/watch?v=gPrUzlsFIJI)
+-> [(Video)](https://www.youtube.com/watch?v=gPrUzlsFIJI)
 
 
 
