@@ -13,7 +13,7 @@
 [Vantage SQLE Analytic Functions (16.20)](https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions)
 
 
-- [Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
+* [Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
 
 
 
@@ -30,7 +30,9 @@
 
 
 [Analytics 123: Enabling Enterprise AI at Scale](https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf)
-- [Video](https://www.youtube.com/watch?v=-UKK_KRGt9I)
+
+
+* [Video](https://www.youtube.com/watch?v=-UKK_KRGt9I)
 
 
 
