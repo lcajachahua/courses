@@ -1,6 +1,6 @@
 # Vantage Courses
 
-### Reference Guides (Please, COPY THE LINK and paste it on the web browser, Git origins are not supported)
+### Reference Guides (Right click and "Open in a New Window")
 
 [Vantage SQLE Analytic Functions (17.20)](https://docs.teradata.com/r/Teradata-VantageTM-Analytics-Database-Analytic-Functions-17.20/Introduction-to-Analytics-Database-Analytic-Functions)
 
