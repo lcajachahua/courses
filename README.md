@@ -2,56 +2,33 @@
 
 ### Reference Guides (Please, COPY THE LINK and paste it on the web browser, Git origins are not supported)
 
-Vantage SQLE Analytic Functions (17.20)
-
-
-https://docs.teradata.com/r/Teradata-VantageTM-Analytics-Database-Analytic-Functions-17.20/Introduction-to-Analytics-Database-Analytic-Functions
+[Vantage SQLE Analytic Functions (17.20)](https://docs.teradata.com/r/Teradata-VantageTM-Analytics-Database-Analytic-Functions-17.20/Introduction-to-Analytics-Database-Analytic-Functions)
 
 
 
-
-Vantage SQLE Analytic Functions (17.10)
-
-
-https://docs.teradata.com/r/Teradata-VantageTM-Advanced-SQL-Engine-Analytic-Functions/July-2021/Introduction-to-Teradata-Vantage
+[Vantage SQLE Analytic Functions (17.10)](https://docs.teradata.com/r/Teradata-VantageTM-Advanced-SQL-Engine-Analytic-Functions/July-2021/Introduction-to-Teradata-Vantage)
 
 
 
-
-Vantage SQLE Analytic Functions (16.20)
+[Vantage SQLE Analytic Functions (16.20)](https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions)
 [Video](https://www.youtube.com/watch?v=aUfjkOlQrLs)
 
 
-https://docs.teradata.com/r/Teradata-VantageTM-NewSQL-Engine-Analytic-Functions/July-2019/Introduction-to-Teradata-Vantage-NewSQL-Engine-Analytic-Functions
+
+[Vantage Time Series Tables and Operations](https://docs.teradata.com/r/Enterprise_IntelliFlex_VMware/Time-Series-Tables-and-Operations)
 
 
 
-
-Vantage Time Series Tables and Operations
-
-https://docs.teradata.com/r/Enterprise_IntelliFlex_VMware/Time-Series-Tables-and-Operations
+[Vantage Temporal Table Support](https://docs.teradata.com/r/Enterprise_IntelliFlex_VMware/Temporal-Table-Support)
 
 
 
-Vantage Temporal Table Support
-
-https://docs.teradata.com/r/Enterprise_IntelliFlex_VMware/Temporal-Table-Support
+[Vantage Geospatial Data Types](https://docs.teradata.com/r/Geospatial-Data-Types/July-2021)
 
 
 
-
-Vantage Geospatial Data Types
-
-
-https://docs.teradata.com/r/Geospatial-Data-Types/July-2021
-
-
-
-Analytics 123: Enabling Enterprise AI at Scale
+[Analytics 123: Enabling Enterprise AI at Scale](https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf)
 [Video](https://www.youtube.com/watch?v=-UKK_KRGt9I)
-
-
-https://assets.teradata.com/resourceCenter/downloads/WhitePapers/Analytics-123-Enabling-Enterprise-AI-at-Scale-MD006623.pdf
 
 
 
@@ -74,7 +51,7 @@ TeradataML: Teradata Package for Python
 [Video](https://www.youtube.com/watch?v=YK_x4y52ffc)
 
 
-https://docs.teradata.com/r/Teradata-Package-for-Python-Function-Reference/November-2021/teradataml-Vantage-Analytics-Library-Functions
+https://docs.teradata.com/r/Enterprise/Teradata-Package-for-Python-Function-Reference-17.20
 
 
 Tdplyr: Teradata Package for R
