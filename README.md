@@ -1,4 +1,4 @@
-# Vantage Reference Guides
+# ClearScape Reference Guides
 
 ### Right click and "Open in a New Window"
 
